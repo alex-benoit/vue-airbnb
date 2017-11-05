@@ -5,7 +5,6 @@
   "author": "Alex Benoit <alex@lewagon.com>",
   "private": true,
   "scripts": {
-    "deploy": "node ./node_modules/vue-gh-pages/index.js",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
