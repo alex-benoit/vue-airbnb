@@ -1,14 +1,12 @@
 <template>
-  <div class="flat-panel">
-    <template v-if="selectedFlat">
-      <div class="flat-info">
-        <h3>{{ selectedFlat.name }}</h3>
-        <p>{{ selectedFlat.price }} {{ selectedFlat.priceCurrency }} per night</p>
-        <button>Book now</button>
-      </div>
-      <div class="flat-banner" v-bind:style="{ backgroundImage: `url(${selectedFlat.imageUrl})` }"></div>
-      <div class="flat-map" v-bind:style="{ backgroundImage: `url(${mapUrl})`}"></div>
-    </template>
+  <div class="flat-panel" v-if="selectedFlat">
+    <div class="flat-info">
+      <h3>{{ selectedFlat.name }}</h3>
+      <p>{{ selectedFlat.price }} {{ selectedFlat.priceCurrency }} per night</p>
+      <button>Book now</button>
+    </div>
+    <div class="flat-banner" v-bind:style="{ backgroundImage: `url(${selectedFlat.imageUrl})` }"></div>
+    <div class="flat-map" v-bind:style="{ backgroundImage: `url(${mapUrl})`}"></div>
   </div>
 </template>
 
