@@ -1,18 +1,16 @@
-# airbnb-clone
+# VueJS Airbnb Mini Clone
 
-> A Vue.js project
+Example of a dynamic webpage build with VueJS. Data is collected from an external API, and is filtered based on user input.
 
-## Build Setup
+Vue features used: single file components, interpolations, directives, conditional rendering, list rendering, event handeling, form input bindings.
 
 ``` bash
 # install dependencies
-npm install
+yarn install
 
 # serve with hot reload at localhost:8080
-npm run dev
+yarn dev
 
 # build for production with minification
-npm run build
+yarn build
 ```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
