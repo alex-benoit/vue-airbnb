@@ -15,7 +15,7 @@ export default {
   props: [ 'selectedFlat' ],
   computed: {
     mapUrl: function(){
-      return `http://maps.googleapis.com/maps/api/staticmap?center=${this.selectedFlat.lat},${this.selectedFlat.lng}&zoom=14&size=480x250&markers=${this.selectedFlat.lat},${this.selectedFlat.lng}`
+      return `http://maps.googleapis.com/maps/api/staticmap?center=${this.selectedFlat.lat},${this.selectedFlat.lng}&zoom=14&size=480x250&markers=${this.selectedFlat.lat},${this.selectedFlat.lng}&key=AIzaSyCP18cD4FwL37eXgcB1MbLNtG9ktbkzdlw`
     }
   }
 };
